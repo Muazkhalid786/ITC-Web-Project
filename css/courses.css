@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    color: white;
+    height: 10vh;
+    background-color: #090446;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    transition: 0.7s ease all;
+
+}
+
+nav ul li a:hover {
+    border-radius: 10px 0px 10px 0px;   
+    background-color: white;
+    color: #090446;
+}
+
+#heading {
+    margin: 20px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.courseImg {
+    width: 50px;
+    height: 50px;
+}
+
+.course {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin: 40px 10px;
+    width: 350px;
+    height: 300px;
+    transition: 0.4s ease all;
+    cursor: pointer;
+}
+
+.course:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.07);
+}
+
+.course .info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#courses {
+    color:white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    margin: auto;
+}
+
+.courseBtn {
+    width: 100%;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease all;
+    box-shadow: 7px 6px 33px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 6px 33px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 6px 33px 0px rgba(0,0,0,0.75);
+}
+
+.course:hover .courseBtn {
+    color: black;
+}
+
+.courseDescription {
+    margin: 20px 0px;
+}
+
+.courseBtn:hover {
+    background: white;
+    color: black;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/courses/background.jpg");
+}
+
+footer {
+    background-color: #090446;
+    color: white;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
